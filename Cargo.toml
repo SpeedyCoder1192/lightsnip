@@ -1,0 +1,15 @@
+[package]
+name = "lightsnip"
+version = "0.2.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.27"
+xcap = "0.0.14"
+arboard = { version = "3.4", features = ["wayland-data-control"] }
+image = "0.25"
+chrono = "0.4"
+rdev = "0.5.3"
+parking_lot = "0.12"
+sysinfo = "0.30"
+open = "5.0"
